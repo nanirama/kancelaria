@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-preload-fonts`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
@@ -40,24 +41,36 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-
     {
-      resolve: `gatsby-plugin-webfonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: {
-          google: [
-            {
-              family: "Abril Fatface",
-              variants: ["400"],
-            },  
-            {
-              family: "Jost",
-              variants: ["300","400","500","600","700"],
-            },            
-          ],
-        },
-      },
-    },
+        fonts: [
+          `Abril Fatface`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        fonts: [
+          `Jost`,
+          `source sans pro\:300,400,400i,700` // you can also specify font weights and styles
+        ],
+        display: 'swap'
+      }
+    }
+    // {
+    //   resolve: `gatsby-plugin-google-fonts`,
+    //   options: {
+    //     fonts: [
+    //       {
+    //         family: "Abril Fatface",
+    //         variants: ["400"],
+    //       },  
+    //       {
+    //         family: "Jost",
+    //         variants: ["300","400","500","600","700"],
+    //       },  
+    //     ],
+    //     display: 'swap'
+    //   }
+    // }
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

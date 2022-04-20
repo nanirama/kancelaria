@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "gatsby"
 import { ContactBLock, Container, MapBlock, Grid, Item, ContactText, Address, Icon, FormBlock, FormGrid, Travel, FormInner, BtnOuter } from "./styled"
 
 const ContactSection = () => {
@@ -33,7 +34,7 @@ const ContactSection = () => {
                             </Address>
                         </ContactText>
                     </Item>
-                    <Item><iframe title="mymap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2407.649276033279!2d18.78787261567301!3d52.88273131703631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471cb70e0d0ec4a1%3A0x3a63fa6ee474a080!2sZegar%20kwiatowy!5e0!3m2!1sen!2sin!4v1650351552939!5m2!1sen!2sin" width="100%" height="100%" style={{ border: '0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></Item>
+                    <Item><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2407.649276033279!2d18.78787261567301!3d52.88273131703631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471cb70e0d0ec4a1%3A0x3a63fa6ee474a080!2sZegar%20kwiatowy!5e0!3m2!1sen!2sin!4v1650351552939!5m2!1sen!2sin" width="100%" height="100%" style={{ border: '0' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></Item>
                 </Grid>
             </MapBlock>
             <FormBlock>

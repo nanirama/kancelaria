@@ -8,6 +8,8 @@ import OfferSection from "../components/Home/OfferSection"
 import BenefitsSection from "../components/Home/BenefitsSection"
 import BottomSection from "../components/Home/BottomLegalSection"
 
+import Button from "../components/Sections/Button"
+
 const IndexPage = () => (
   <Layout>
     <Banner />

@@ -14,15 +14,20 @@ padding:0 15px;
 export const Grid = styled.div`
 display: grid;
 grid-template-columns: 1fr;
-gap: 10px 35px;
+gap: 10px 30px;
 margin-top:80px;
 
+@media (min-width: 1921px) {
+max-width:1230px;
+margin:80px auto 0 auto;
+}
 @media (min-width: 992px) {
    grid-template-columns: 6fr 6fr;
    margin-bottom:20px;
+   gap: 10px 50px;
 }
-@media (min-width: 1471px) {
-gap: 10px 250px;
+@media (min-width: 1366px) and  (max-width:1600px)  {
+gap: 10px 100px;
 }
 @media (max-width: 767px) {
     margin-top:30px;
@@ -59,10 +64,14 @@ padding:0 15px;
 }
 `
 export const Image = styled.div`
+display: flex;
+justify-content: start;
 .gatsby-image-wrapper{
     width:100%;
 }
-img{object-fit: inherit !important;}
+// @media (min-width: 1601px) {
+// img{object-fit: inherit !important;}
+// }
 @media (max-width: 767px) {
 margin-bottom:20px;
 }
@@ -73,7 +82,9 @@ justify-content: end;
 .gatsby-image-wrapper{
     width:100%;
 }
-img{object-fit: inherit !important;}
+// @media (min-width: 1601px) {
+// img{object-fit: inherit !important;}
+// }
 `
 export const GridInner = styled.div`
 display: grid;

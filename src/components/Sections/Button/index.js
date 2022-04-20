@@ -23,6 +23,8 @@ a{
   line-height: 26px;
   text-align: center;
   display: inline-block;
+  transition-duration: 1s;
+ 
   &:hover{
     background: ${({ type }) => (type ==='primary' ? "#DED1BC" : "#DED1BC")};
     color: ${({ type }) => (type ==='primary' ? "#000" : "#000")};  
@@ -30,6 +32,7 @@ a{
 
   @media (max-width: 1150px) {
     padding: ${({ size }) => (size==='large' ? "1.2rem 3rem" : "1.2rem 2rem")};
+    font-size:17px;
   }
   @media (max-width: 479px) {
     padding: ${({ size }) => (size==='large' ? "1.2rem 2rem" : "1.2rem 1.8rem")};

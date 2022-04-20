@@ -39,6 +39,10 @@ export const ContactText = styled.div`
 background: #DED1BC;
 padding:35px;
 height:100%;
+display:flex;
+justify-content:center;
+align-items:start;
+flex-direction:column;
 @media (min-width: 1301px) {
     padding:35px 75px 50px 90px;
 }
@@ -89,10 +93,12 @@ p{display: flex;justify-content: center;align-items: center;margin:0; padding-le
 export const FormInner = styled.div`
 input, textarea{width:100%;float:left;background: #F8F6F2;border:none;margin-bottom:20px;padding:0 15px;line-height:36px;color: #847B6E;}
 textarea{height:200px;resize:none;overflow:hidden;}
-.btn{background: #113D69; padding:15px 30px;font-weight:400;color:#fff;border:none;width:280px;float:none;display:inline-block;margin:0;cursor:pointer;
+.btn{background: #113D69; padding:15px 30px;font-weight:400;color:#fff;border:none;width:280px;float:none;display:inline-block;
+margin:0;cursor:pointer;transition-duration:1s;
     @media (max-width: 360px) {
         width:100%;
     }
+    &:hover{background:#DED1BC; color:#000;}
 }
 `
 export const BtnOuter = styled.div`

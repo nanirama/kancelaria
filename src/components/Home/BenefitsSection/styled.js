@@ -29,7 +29,7 @@ export const TitleBlk = styled.div`
 display:flex;
 margin-bottom:17px;
 h4{
-    display: flex;
+display: flex;
 justify-content: center;
 align-items: center;
 margin:0;
@@ -43,6 +43,7 @@ background: #DED1BC;
 display: flex;
 justify-content: center;
 align-items: center;
+transition-duration: 1.3s;
 &:hover{
     background: #113D69;
 }

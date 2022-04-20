@@ -10,10 +10,10 @@ const OfferSection = () => {
                     <Item>
                         <Links>
                             <ul>
-                                <li><Link to="/sporządzanie" className="active">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Link></li>
-                                <li><Link to="/sporządzanie1">Sed pretium lectus id massa porta suscipit.</Link></li>
-                                <li><Link to="/sporządzanie2">Nunc id velit quis odio placerat scelerisque sit amet eu quam.</Link></li>
-                                <li><Link to="/sporządzanie3">Morbi condimentum urna at elit imperdiet accumsan.</Link></li>
+                                <li><Link to="/offers/sporządzanie" className="active">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</Link></li>
+                                <li><Link to="/offers/sporządzanie1">Sed pretium lectus id massa porta suscipit.</Link></li>
+                                <li><Link to="/offers/sporządzanie2">Nunc id velit quis odio placerat scelerisque sit amet eu quam.</Link></li>
+                                <li><Link to="/offers/sporządzanie3">Morbi condimentum urna at elit imperdiet accumsan.</Link></li>
                                 <li><Link to="/">Duis nec risus vitae risus sodales posuere.</Link></li>
                                 <li><Link to="/">Phasellus quis orci non justo hendrerit varius.</Link></li>
                                 <li><Link to="/">Proin sed est tempus, semper ligula a, semper ante.</Link></li>

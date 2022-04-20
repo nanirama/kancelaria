@@ -20,18 +20,22 @@ export const Item = styled.div`
 `
 export const ContactBLock = styled.div`
 background: #DED1BC;
-padding:55px 110px 55px 55px;
+padding:30px 110px 30px 55px;
 height:100%;
+display:flex;
+justify-content:center;
+align-items:start;
+flex-direction:column;
 h2{ font-size: 36px;line-height: 49px;}
 
 p:nth-child(4){margin-bottom:80px;}
 a:hover{background:#F8F6F2 !important;}
 
 @media (min-width: 1600px) {
-    padding:55px 190px 55px 55px;
+    padding:30px 190px 30px 55px;
 }
 @media (max-width: 1359px) {
-padding:55px;
+padding:30px 55px;
 }
 @media (max-width: 1150px) {
     padding:50px 30px;
